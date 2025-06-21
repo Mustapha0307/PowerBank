@@ -1,7 +1,7 @@
 
-import OrderForm from './components/Orderform'
+import OrderForm from './components/OrderForm'
 
-import './components/Style/Orderform.css'
+import './components/Style/OrderForm.css'
 import './components/Style/DescriptionProduct.css'
 
 
