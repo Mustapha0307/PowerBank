@@ -1,0 +1,105 @@
+.p-4 {
+  padding: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.w-full {
+  width: 70%;
+}
+
+.max-h-80 {
+  max-height: 20rem; /* = 80 * 0.25rem = 20rem */
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.flex {
+  display: flex;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+  width: 80%;
+  position: relative;
+  right: -10%;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-blue-500 {
+  border-color: #3b82f6;
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
+}
+
+.transition {
+  transition: all 0.2s ease;
+}

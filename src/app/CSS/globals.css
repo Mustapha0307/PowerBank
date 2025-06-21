@@ -1,0 +1,20 @@
+:root {
+    --beige-soft: #EDE6DB;
+    --warm-taupe: #B29B89;
+    --deep-navy: #2C3E50;
+    --olive-green: #6B705C;
+    --brushed-gold: #16a34a;
+    --soft-gray: #D3D3D3;
+    --ivory-white: #FAF9F6;
+}
+
+@media screen and (max-width: 768px) {
+    .forDesktopV .img {
+        flex-direction: column;
+  & .img-top{
+    width: 100%;
+  }
+  & .img-bottom{
+  }
+}
+}
