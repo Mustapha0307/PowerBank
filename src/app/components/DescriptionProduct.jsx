@@ -24,8 +24,10 @@ export default function ProductDescription() {
       <div className="bg-green-50 p-4 rounded-lg shadow-inner text-center space-y-2">
         <p className="text-xl font-semibold text-green-700">💰 السعر الحالي: 4200 دج</p>
         <p className="text-sm text-gray-600">🚚 التوصيل مجاني • 💵 الدفع عند الاستلام</p>
-        <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-xl shadow">
+         <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-xl shadow">
+          <a href="#orderForm">
           أطلب الآن
+          </a>
         </button>
       </div>
     </div>
