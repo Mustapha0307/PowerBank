@@ -3,7 +3,7 @@ export async function POST(request) {
     const formData = await request.formData();
     const plainData = {};
 
-    // نحولو من FormData لـ object عادي
+    // Translate From formData to object
     for (const [key, value] of formData.entries()) {
       plainData[key] = value;
     }
