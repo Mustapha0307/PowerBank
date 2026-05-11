@@ -1,6 +1,6 @@
 
 // import OrderForm from './components/OrderForm'
- import ECGForm from './components/EcgForm'
+ import ECGWaveform from './components/ecg-cas-cliniques'
 
 import './components/Style/OrderForm.css'
 import './components/Style/DescriptionProduct.css'
